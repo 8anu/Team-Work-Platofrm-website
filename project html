@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+
+<body>
+    <div class="topnav">
+    
+    <a href="dashboard.html" class="button1">Dashboard</a>
+       
+       <a href="team.html" class="button2">Team</a>
+       <a class="active" href="#project">Projects</a>
+       <a href="todo%20list.html" class="button4">To-Do List</a>
+    </div>
+    <!--code for the top nav..-->
+    
+    
+    <!--code for progress bar-->
+    <div class="team-progress">
+        
+  <h2>Team Progress</h2>
+  <div class="progress-bar">
+    <span class="progress-label">Anshuman</span>
+    <div class="progress">
+      <div class="progress-bar-fill" style="width: 80%;"></div>
+    </div>
+       <span class="progress-status">80%</span>
+  </div>
+  <div class="progress-bar">
+    <span class="progress-label">Hemant</span>
+    <div class="progress">
+      <div class="progress-bar-fill" style="width: 60%;"></div>
+    </div>
+      <span class="progress-status">60%</span>
+  </div>
+  <div class="progress-bar">
+    <span class="progress-label">Ankit</span>
+    <div class="progress">
+      <div class="progress-bar-fill" style="width: 90%;"></div>
+    </div>
+       <span class="progress-status">90%</span>
+  </div>
+        <div class="progress-bar">
+    <span class="progress-label">Sarthak</span>
+    <div class="progress">
+      <div class="progress-bar-fill" style="width: 50%;"></div>
+    </div>
+             <span class="progress-status">50%</span>
+  </div>
+</div>
+
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
