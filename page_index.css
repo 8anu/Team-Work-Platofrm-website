@@ -1,0 +1,90 @@
+
+h1 {
+    color:black;
+    text-align: center;
+    font-size:50;
+}
+
+body {
+    text-align: center;
+}
+
+
+#team
+{
+			font-size: 100px;
+			color: white;
+			animation: welcome 5s ease-in-out;
+		}
+
+		@keyframes welcome {
+			0% {
+				opacity: 0;
+				transform: scale(0.5);
+			}
+			50% {
+				opacity: 1;
+				transform: scale(1.2);
+			}
+			100% {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+
+.button1 {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.button2{
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 6px;
+}
+.button3{
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 6px;
+}
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+
