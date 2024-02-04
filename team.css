@@ -1,0 +1,114 @@
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+body{
+    background-image: url(team%20bg%20.jpg);
+}
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    padding:10px 15px 10px;
+
+
+}
+.topnav a{
+    float: left;
+    color:red;
+    text-align: center;
+    padding:10px 15px;
+    font size:12px;
+}
+.topnav a:hover {
+    background-color: red;
+    color: white;
+}
+.topnav a.active{
+    background-color:blue;
+    color:White;
+}
+.button1{   
+display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #fff;
+  border-radius: 20px;
+}
+.button3{
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #fff;
+  border-radius: 20px;
+}
+.button4{
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #fff;
+  border-radius: 20px;
+}
